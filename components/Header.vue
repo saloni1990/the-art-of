@@ -14,8 +14,8 @@
                 <nav>
                 <ul class="md:flex items-center justify-between text-base text-blue-600 pt-4 md:pt-0">
                     <nuxt-link class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" to="/">Home </nuxt-link>
-                    <!-- <nuxt-link class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Blog </nuxt-link>
-                    <nuxt-link class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#">About </nuxt-link> -->
+                    <nuxt-link class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" to="/about">About </nuxt-link>
+                    <nuxt-link class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" to="/blog">Blog </nuxt-link>
                 </ul>
                 </nav>
             </div>

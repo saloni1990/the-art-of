@@ -5,7 +5,7 @@
 
       <div class="w-full max-auto pt-2">
         <div class="flex flex-wrap justify-center items-center ">
-          <h1>The Art of Product Sourcing</h1>
+          <h1>About</h1>
         </div>
       </div>
       <Footer />
@@ -22,7 +22,11 @@ export default {
     Header,
     Footer
   },
-  
+  head() {
+  return {
+    script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+  };
+  },
 }
 </script>
 
