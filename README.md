@@ -1,4 +1,4 @@
-# taops
+# the art of
 
 ## Build Setup
 

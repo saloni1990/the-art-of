@@ -26,7 +26,7 @@ export default {
     ],
     script: [
       {
-        src: 'https://taops.netlify.app/',
+        src: 'https://theartof.netlify.app/',
         hid: 'netlify-id'
       }
     ]
