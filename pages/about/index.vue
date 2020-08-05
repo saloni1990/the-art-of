@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="max-w-6xl">
+  <div class="">
+    <div class="">
       <Header />
 
       <div class="w-full max-auto pt-2">
