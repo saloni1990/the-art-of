@@ -26,7 +26,7 @@ export default {
     ],
     script: [
       {
-        src: 'https://theartof.netlify.app/',
+        src: 'https://the-art-of.netlify.app/',
         hid: 'netlify-id'
       }
     ]
