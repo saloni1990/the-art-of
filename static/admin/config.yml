@@ -10,14 +10,6 @@ site_url: https://the-art-of.netlify.com/
 collections:
   - name: 'blog'
     label: 'Blog'
-    files: 
-      - label: "About"
-        name: 'about'
-        file: "/assets/content/about.json"
-        fields: 
-         - {label: "Title", name: "title", widget: "string"}
-         - {label: "Featured Image", name: "thumbnail", widget: "image"}
-         - {label: "Body", name: "body", widget: "markdown", required: false}
     format: 'json'
     folder: 'assets/content/blog'
     create: true
@@ -36,3 +28,9 @@ collections:
         fields: 
           - {label: Alt Tag, name: altTag, widget: string, required: false}
           - {label: Image, name: image, widget: image}
+  - label: "About"
+    name: 'about'
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
