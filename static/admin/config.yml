@@ -10,14 +10,29 @@ site_url: https://theartof.netlify.com/
 collections:
   - name: 'blog'
     label: 'Blog'
+    files: 
+      - label: "About"
+        name: 'about'
+        file: "/assets/content/about.json"
+        fields: 
+         - {label: "Title", name: "title", widget: "string"}
+         - {label: "Featured Image", name: "thumbnail", widget: "image"}
+         - {label: "Body", name: "body", widget: "markdown", required: false}
     format: 'json'
     folder: 'assets/content/blog'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project", required: false}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Video", name: "video", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Gallery" 
+        name: "galleryImages"
+        widget: "list"
+        required: false
+        fields: 
+          - {label: Alt Tag, name: altTag, widget: string, required: false}
+          - {label: Image, name: image, widget: image}
