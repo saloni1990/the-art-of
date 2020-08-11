@@ -31,6 +31,10 @@ collections:
           - {label: Image, name: image, widget: image}
   - label: "About"
     name: 'about'
+    format: 'json'
+    folder: 'assets/content/about'
+    create: true
+    slug: "{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
