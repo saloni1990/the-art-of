@@ -2,23 +2,25 @@
   <div class="">
     <div class="w-full">
       <Header />
-
-      <div class="w-full max-auto pt-2">
-        <div class="flex flex-wrap justify-center items-center ">
-        </div>
-      </div>
+      <Holding />
+      <!-- <Blog /> -->
       <Footer />
     </div>
   </div>
 </template>
 
 <script>
+import Blog from '~/components/Blog.vue'
 import Header from '~/components/Header.vue'
+import Holding from '~/components/Holding.vue'
 import Footer from '~/components/Footer.vue'
+
 
 export default {
   components: {
+    Blog,
     Header,
+    Holding,
     Footer
   },
   

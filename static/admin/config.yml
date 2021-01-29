@@ -15,7 +15,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "project", required: false}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog", required: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}

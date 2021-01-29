@@ -4,9 +4,9 @@
             <Header />
         <div class="max-w-4xl px-4 mx-auto content">
             <h1 class="mb-8 italic">{{page.title}}</h1>
-            <div class="w-full flex justify-center pb-4">
+            <!-- <div class="w-full flex justify-center pb-4">
                 <cld-image :publicId="`/interactive_agents/${page.pageImage}`"  width="500" crop="fill" />
-            </div>
+            </div> -->
             <div v-html="parseMarkdown(page.body)" class="px-4 "></div>
 
         </div>
@@ -41,7 +41,7 @@ export default {
     if (payload) return { page: payload }
     else
       return {
-        page: await require(`~/assets/content/pages/about/about.json`)
+        page: await require(`~/assets/content/about/the-story-behind-the-art-of.json`)
       }
   },
   methods: {

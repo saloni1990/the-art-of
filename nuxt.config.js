@@ -1,3 +1,4 @@
+import fs from 'fs'
 
 export default {
   /*
@@ -15,11 +16,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'The Art Of gdg' || '',
+    title: 'The Art Of',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The Art of Production' || '' }
+      { hid: 'description', name: 'description', content: 'The Art Of' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -71,5 +72,8 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    build: {
+      extend(config, ctx) {}
   }
+}
 }
