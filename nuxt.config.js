@@ -20,14 +20,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The Art Of' }
+      { hid: 'description', name: 'description', content: 'At ‘The Art of’ we are here to help with all your marketing needs, your ‘in house’ marketing person.' },
+      { property: 'og:image', content: '/icon.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/icon.png' }
     ],
     script: [
       {
-        src: 'https://the-art-of.netlify.app/',
+        src: 'https://theartof.uk',
         hid: 'netlify-id'
       }
     ]
