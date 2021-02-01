@@ -1,8 +1,9 @@
 <template>
   <div class="">
     <div class="w-full">
-      <Header />
+      <!-- <Header /> -->
       <Holding />
+      <!-- <Contact /> -->
       <!-- <Blog /> -->
       <Footer />
     </div>
@@ -11,6 +12,7 @@
 
 <script>
 import Blog from '~/components/Blog.vue'
+import Contact from '~/components/Contact.vue'
 import Header from '~/components/Header.vue'
 import Holding from '~/components/Holding.vue'
 import Footer from '~/components/Footer.vue'
@@ -19,6 +21,7 @@ import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Blog,
+    Contact,
     Header,
     Holding,
     Footer
