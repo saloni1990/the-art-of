@@ -5,7 +5,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-site_url: https://the-art-of.netlify.com/
+site_url: https://theartof.uk/
 
 collections:
   - name: 'blog'
