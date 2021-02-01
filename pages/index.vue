@@ -3,7 +3,7 @@
     <div class="w-full">
       <!-- <Header /> -->
       <Holding />
-      <!-- <Contact /> -->
+      <Contact />
       <!-- <Blog /> -->
       <Footer />
     </div>
@@ -21,12 +21,16 @@ import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Blog,
-    // Contact,
+    Contact,
     Header,
     Holding,
     Footer
   },
-  
+    head() {
+    return {
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    };
+  },
 }
 </script>
 
