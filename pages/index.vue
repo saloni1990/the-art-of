@@ -12,7 +12,7 @@
 
 <script>
 import Blog from '~/components/Blog.vue'
-// import Contact from '~/components/Contact.vue'
+import Contact from '~/components/Contact.vue'
 import Header from '~/components/Header.vue'
 import Holding from '~/components/Holding.vue'
 import Footer from '~/components/Footer.vue'
