@@ -15,7 +15,7 @@
     "baguettebox.js": "^1.11.1",
     "cloudinary-vue": "^1.1.1",
     "fs": "^0.0.1-security",
-    "marked": "^1.1.1",
+    "marked": "^2.0.0",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {
